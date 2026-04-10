@@ -4,7 +4,7 @@ from config import KEY, FRED_API_URL, FDIC_API_URL
 ##define function to fetch GDP data from FRED API
 def fetch_fred_gdp(observation_start, observation_end):
     params = {
-        "series_id": "GDPC1",
+        "series_id": "GDPC1"",
         "observation_start": observation_start,
         "observation_end": observation_end,
         "api_key": KEY,
